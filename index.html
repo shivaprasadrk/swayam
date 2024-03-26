@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ad6b86e160.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--main navbar-->
+    <div id="header" aria-colspan="12" >
+        <div class="container" class="col-sm-4 col-md-6 col-lg-12">
+                <video autoplay muted loop src="images/Network.webm" type="video/webm" class="banner"></video>
+            <nav>
+                <img src="images/looalvas.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header"onclick="closemenu()">Explore</a></li>
+                    <li><a href="#about"onclick="closemenu()">About Me</a></li>
+                    <li><a href="#services"onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio"onclick="closemenu()">My Work</a></li>
+                    <li><a href="#contact"onclick="closemenu()">Contact's</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" class="col-sm-6col-md-6 col-lg-12">
+                <p># UI/UX Designer</p>
+                <p># Front/Backend Web-developer</p>
+                <p># App-builder</p>
+                <h1>Hi,I'm <span><br>SHIVAPRASAD R.K</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+<!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pho-1.jpg" alt="">
+
+                </div>
+                <div class="about-col-2" class="col-sm-4 col-md-6 col-lg-12">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        <p class="tab-links"onclick="opentab('Languages')">Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web-developer</span><br>Designing frontend web's by html,css,javascript...etc </li>
+                            <li><span>App Design</span><br>Designing a application by using Figma</li>
+                            <li><span>Computer Basics</span><br>Office Management course</li>
+                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024-current</span><br>UI/UX Design training at AIET</li>
+                            <li><span>2023-24</span><br>Participate in Alvas best UI/UX Designers(competition) using Figma.</li>
+                            <li><span>2023</span><br> Web-developer with using html,css,javascript,other online sites bootstrap...etc</li>
+                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>UI/UX Design Training at AIET</li>
+                            <li><span>2023</span><br>Designing frontend web's by html,css,javascript at AIET</li>
+                            <li><span>2022-23</span><br>CSE from AIET Mangalore</li>
+                            <li><span>C-language</span><br>Principles of programming with C</li>
+                            <li><span>C++ </span><br>C++.17 Learned</li>
+                            <li><span>Python</span><br>python programming</li>
+                            <li><span>Java</span><br>Object Oriented programming with Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Languages">
+                        <ul>
+                            <li>I Believe that Knowledge of languages is the doorway to Wisdom.<br><span>Kannada</span></li>
+                            <li><span>Enlish</span><br></li>
+                            <li><span>Hindi</span><br></li>
+                            <li><span>Telugu</span><br></li>
+                            <li><span>Tamil</span><br></li>
+                
+                        </ul>
+                   </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------serivecs--------->
+    <div id="services">
+    <div class="container" class="col-sm-4 col-md-6 col-lg-12">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> Web development offers a strong community and teamwork opportunities, with various online and offline resources for networking and problem-solving.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Design is not just what it looks like and feels like. Design is how it works</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>App design is an ongoing process of creating user experience (UX) and user interface (UI) elements for your application. </p>
+                <a href="#">learn more</a>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+    <!--------portfolio------>
+    <div id="portfolio">
+        <div class="container" class="col-sm-4 col-md-6 col-lg-12">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Screenshot (17).png" alt="">
+                    <div class="layer">
+                        <h3>Website Design for Tech's</h3>
+                        <p>Design is not just what it looks like and feels like. Design is how it works</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot 2023-12-08 191332.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App by Figma</h3>
+                        <p>Design is not just what it looks like and feels like. Design is how it works</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot (18).png" alt="">
+                    <div class="layer">
+                        <h3>UI/UX Design by figma</h3>
+                        <p>Design is not just what it looks like and feels like. Design is how it works</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+
+            </div>
+
+        </div>
+    </div>
+    <!-------------contact-->
+    <div id="contact">
+        <div class="container" class="col-sm-4 col-md-6 col-lg-12">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact's</h1>
+                    <p><i class="fa-regular fa-envelope"></i>shivaprasadrkcse@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8792308900</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sivaprasadrk.shivaprasadrk?mibextid=eHce3h"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/shiva-prasad-r-k-1480832a0"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/RKshivaprasad29?t=mU6A-31eLZcsKSn9DG8Ztw&s=08"><i class="fa-brands fa-x-twitter"></i></a>
+                        <br>
+                        <h4>click on it to access</h4>
+                    </div>
+                    <a href="images/SHIVAPRASAD R.K - Resume.pdf" download class="btn btn2">Download CV</a>
+                
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email"name="email" placeholder="Your email address" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright" class="col-sm-4 col-md-6 col-lg-12">
+            <p>By Shivaprasad RK <i class="fa-solid fa-heart"></i>.Thank you for exploring Me !</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzFZbQxJ9K9RPhz2w6MiGnofQMtHjw4ixYvljWlJzts6ECJLPl8islB005kXl8M-egS/exec '
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML=" Thank you!.Message sent successfully"
+                setTimeout(function(){
+                  msg.innerHTML=""  
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
